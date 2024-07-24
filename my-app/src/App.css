@@ -2,8 +2,8 @@
 body {
   margin: 0 auto;
   font-family: Arial, sans-serif;
-  overflow-x: hidden
-
+  overflow-x: hidden;
+  user-select:none;
 }
 
 .App {
@@ -116,7 +116,8 @@ h1.Header-top {
   color: rgb(255, 105, 0);
 }
 .dodo{
-  margin-top: 0;
+  margin-top: 3px;
+  margin-left: 4px;
   display: flex;
   flex-direction: column;
 }
@@ -131,7 +132,7 @@ font-size: 12px;
 
 .login-btn{
   font-size:14px;
-  margin-left: 20px;
+  margin-left: 75px;
   border-radius:20px ;
   border:6px solid #e0e0e3;
   background-color: #e0e0e3;
@@ -159,6 +160,7 @@ cursor:pointer;
   margin-left: 40px;
   line-height: 1;
   font-weight: normal;
+  font-family: Comic Sans MS, Comic Sans, cursive;
 
 }
 .star{
@@ -227,6 +229,7 @@ main {
   font-weight: 600;
   font-size: 36px;
   /* margin: 32px 120px;  */
+  font-family: OCR A Std, monospace;
 }
 #delivery{
   margin-left: 23px;
@@ -247,6 +250,7 @@ main {
   font-weight: 500;
   font-size: 16px;
   text-align: left;
+  font-family: cursive;
 }
 
 .delivery-text-three {
@@ -467,6 +471,7 @@ p{
 }
 .ptext{
   padding-top: 20px;
+  font-family: Trebuchet MS, sans-serif;
 
 }
 
@@ -571,6 +576,7 @@ flex-direction: column;
   padding-left: 16%;
   height: 60px;
   align-content: center;
+  user-select:none;
 }
 .survey-p{
   color:white;
@@ -705,6 +711,7 @@ flex-direction: column;
 }
 .hate{
   height: 114px;
+  font-family:Lucida Console,monospace;
 }
 .menu-item-buy-button-another{
   margin-left: 130px;
@@ -735,4 +742,9 @@ flex-direction: column;
 }
 .delivery-text-color{
   color:rgb(255,105,0);
+}
+.smalllogo{
+  width: 40px;
+  height: 40px;
+
 }

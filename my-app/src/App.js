@@ -29,11 +29,12 @@ import vk from './assets/vk.svg';
 import ok from './assets/ok.svg';
 import youtube from './assets/youtube.svg';
 import star from './assets/star.svg';
-import btn from './assets/btn.svg';
+
 import logo from './assets/logo.png';
 import appstore from './assets/appstore.png';
 import googleplay from './assets/googleplay.png';
 import appgallery  from './assets/appgallery.png';
+
 function App() {
   const flickityOptions = {
     initialIndex: 3,
@@ -66,10 +67,7 @@ function App() {
             </p>
 
             <div className='header-top-right'>
-              <a className='animated-dodo'>
-                <img className='header-top-right-img' src={btn} vspace="0"/>
-                <span className='header-top-right-text'>Додокоины</span>
-              </a>
+
               <a className='login-btn'>Войти</a>
 
             </div>
@@ -455,11 +453,11 @@ function App() {
           {/*</section>*/}
         </main>
         <section id="survey">
-          <p className='survey-p'>Проверьте нашу кухню и получите додокоины - хватит на две пиццы <a href='#' className='survey-btn'>Заполнить
+            <p className='survey-p'> Попробуйте нашу кухню и получите додокоины - хватит на две пиццы <a href='#' className='survey-btn'>Заполнить
             анекту</a></p>
         </section>
         <footer className='foot'>
-          <div className='fot'><p className='top-footer'>Додо Пицца<a href='#' className='footer-btn'>О нас</a><a
+        <div className='fot'><p className='top-footer'>Додо Пицца<a href='#' className='footer-btn'>О нас</a><a
               href='#'
               className='footer-btn'>Додо-книга</a><a href='#' className='footer-btn'>Блог "Сила ума"</a></p>
             <p className='top-footer'>Работа<a href='#' className='footer-btn'>В пиццерии</a></p>
